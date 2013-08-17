@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+
+	"name": "Netflix Rater",
+	"description": "Bulk sets some Netflix ratings from a JSON input",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_title": "Rate!"
+	},
+
+	"permissions": [
+		"http://movies.netflix.com/"
+	],
+
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
