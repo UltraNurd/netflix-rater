@@ -10,7 +10,7 @@
 	},
 
 	"permissions": [
-		"http://movies.netflix.com/"
+		"http://*.netflix.com/"
 	],
 
 	"background": {
